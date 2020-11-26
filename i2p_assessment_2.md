@@ -80,7 +80,7 @@ Below are justifications of analysis examples drawn from question 7 and 8 on whe
 
 
  
-# Appendix
+# References
 [1]	C. Murray. Behind Inside Airbnb [Online]. Available: http://insideairbnb.com/behind.html.
 
 [2]	C. Murray. About [Online]. Available: http://insideairbnb.com/about.html.
