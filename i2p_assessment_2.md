@@ -37,7 +37,7 @@ More detailed information for host, listing and review is missing. For instance,
 
 ### 6. To what extent is the data 'complete'?
 
-The existed data is ‘incomplete’ in both ***key field*** and ***record*** level, which remains to be identified and cleaned by users before analyzing. 
+The existed data is ‘incomplete’ in both ***key field*** and ***record*** level, which remains to be identified and cleaned by users before analyzing:
 
 -  Some key fields are not well explained in the file. According to Inside Airbnb Disclaimers, the x, y coordinates and availability are not precise due to privacy protection and Airbnb calendar assuming a booked night equals to an unavailable night[3].
 - The data types of fields are not all suitable for straight calculation (e.g. price), which need to be converted. 
@@ -61,7 +61,7 @@ With the combination use of existed Boolean, numeric, text, object and spatial d
 
 ### 8. What kinds of analysis would it _not_ support?
 
-Some analyses are not supported due to data inaccuracy or missing.
+Some analyses are not supported due to data inaccuracy or missing:
 
 - ***Data inaccuracy:*** Numeric Data analysis for availability metric will be undervalued[3]. And Small scale spatial analysis for data at the point level is not supported due to the 0-450 feet location offset[3]. For example, the number of rooms in the same building seems impossible to count. 
 - ***Data missing:*** Analyses related to missing fields or records are not supported. For example, Textual data analysis for tenants’ comment and time series analysis are not supported since review messages are missing and the data contains only one month’s listing scrape.
